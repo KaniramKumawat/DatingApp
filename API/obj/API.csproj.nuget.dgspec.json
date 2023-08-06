@@ -10,11 +10,14 @@
         "projectUniqueName": "C:\\DatingApp\\API\\API.csproj",
         "projectName": "API",
         "projectPath": "C:\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Kaniram Kumawat\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\KAKUM11\\.nuget\\packages\\",
         "outputPath": "C:\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kaniram Kumawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KAKUM11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://itseelm-nt8023.ikea.com:82/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

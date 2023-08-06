@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@angular-devkit/build-angular": "^16.1.6",
     "tslib": "^2.5.2"
   },
   "dependencies": {
