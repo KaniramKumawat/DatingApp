@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DatingApp\\API\\API.csproj": {}
+    "C:\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\DatingApp\\API\\API.csproj": {
+    "C:\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\KAKUM11\\.nuget\\packages\\",
-        "outputPath": "C:\\DatingApp\\API\\obj\\",
+        "projectPath": "C:\\DatingApp\\api\\API.csproj",
+        "packagesPath": "C:\\Users\\Satyam-Shivam\\.nuget\\packages\\",
+        "outputPath": "C:\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\KAKUM11\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Satyam-Shivam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "http://itseelm-nt8023.ikea.com:82/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

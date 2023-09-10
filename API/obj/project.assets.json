@@ -1956,32 +1956,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KAKUM11\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Satyam-Shivam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "c:\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\DatingApp\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\KAKUM11\\.nuget\\packages\\",
-      "outputPath": "C:\\DatingApp\\API\\obj\\",
+      "projectPath": "c:\\DatingApp\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Satyam-Shivam\\.nuget\\packages\\",
+      "outputPath": "c:\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\KAKUM11\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Satyam-Shivam\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-        "http://itseelm-nt8023.ikea.com:82/nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2041,13 +2034,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://itseelm-nt8023.ikea.com:82/nuget/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }
