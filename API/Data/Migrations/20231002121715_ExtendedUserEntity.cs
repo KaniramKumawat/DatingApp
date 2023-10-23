@@ -56,7 +56,7 @@ namespace API.Data.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "KnowsAs",
+                name: "KnownAs",
                 table: "Users",
                 type: "TEXT",
                 nullable: true);
@@ -69,7 +69,7 @@ namespace API.Data.Migrations
                 defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
             migrationBuilder.AddColumn<string>(
-                name: "LoolingFor",
+                name: "LookingFor",
                 table: "Users",
                 type: "TEXT",
                 nullable: true);
@@ -136,7 +136,7 @@ namespace API.Data.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "KnowsAs",
+                name: "KnownAs",
                 table: "Users");
 
             migrationBuilder.DropColumn(
@@ -144,7 +144,7 @@ namespace API.Data.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "LoolingFor",
+                name: "LookingFor",
                 table: "Users");
         }
     }
