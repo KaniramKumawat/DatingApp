@@ -23,7 +23,7 @@ namespace API.Middleware
             }catch(Exception Ex){
                 _logger.LogError(Ex, Ex.Message);
                 context.Response.ContentType="application/json";
-                context.Response.StatusCode=(int)HttpStatusCode.InternalServerError;
+                context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 
                 var response = _env.IsDevelopment()
                 ? new ApiException(context.Response.StatusCode, Ex.Message, Ex.StackTrace?.ToString())
